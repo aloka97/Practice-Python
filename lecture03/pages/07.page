@@ -1,0 +1,230 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: |-
+  Three of the ten students took three courses — a count of three, or 30% of students. A percentage is especially helpful when comparing groups of different sizes. Always state the denominator: ten students.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · COUNTING VALUES
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Relative frequency
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 07 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: f
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 872
+      - 66
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: fb
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 6
+      - 66
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: ft
+    elementType: text
+    bounds:
+      - 66
+      - 112
+      - 830
+      - 50
+    content:
+      text: <p><strong>Relative frequency</strong> = frequency of a value ÷ total observations. A percentage helps compare groups of different sizes — always state the denominator.</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true
+  - elementId: ex
+    elementType: shape
+    bounds:
+      - 44
+      - 196
+      - 540
+      - 150
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: ext
+    elementType: text
+    bounds:
+      - 64
+      - 210
+      - 500
+      - 122
+    content:
+      text: <p>Example — students who took <strong>3 courses</strong>:</p><p style="margin-top:10px"><span style="font-size:22px; color:$teal"><strong>3 / 10 = 0.30 = 30%</strong></span></p><p style="margin-top:10px">Reported as a <strong>count of 3</strong> or as <strong>30% of students</strong>.</p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true
+  - elementId: dn
+    elementType: shape
+    bounds:
+      - 610
+      - 196
+      - 306
+      - 150
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: dnb
+    elementType: shape
+    bounds:
+      - 610
+      - 196
+      - 6
+      - 150
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: dnt
+    elementType: text
+    bounds:
+      - 632
+      - 210
+      - 262
+      - 122
+    content:
+      text: <p><strong>Denominator here:</strong></p><p><span style="font-size:26px; color:$navy"><strong>10 students</strong></span></p><p style="margin-top:6px">Never let the base of a percentage stay implicit.</p>
+      fontSize: 13.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true

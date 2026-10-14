@@ -1,0 +1,263 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: Changing one observation from 5 to 13 raises the sum by eight; the mean rises by 0.8. Median and mode do not change. The mean is sensitive to extremes; the median is more resistant. Check unusual values before removing them.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · CENTRAL TENDENCY
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Effect of an unusual value
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 16 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: tbl
+    elementType: table
+    bounds:
+      - 44
+      - 116
+      - 480
+      - 150
+    columnWidths:
+      - 0.34
+      - 0.22
+      - 0.22
+      - 0.22
+    rowHeights:
+      - 0.24
+      - 0.38
+      - 0.38
+    rows:
+      - [{'text': 'Dataset', 'bold': True}, {'text': 'Mean', 'bold': True}, {'text': 'Median', 'bold': True}, {'text': 'Mode', 'bold': True}]
+      - [{'text': '…, 5, 13', 'bold': True}, {'text': '4.0', 'bold': True, 'color': '$orange'}, {'text': '3'}, {'text': '3'}]
+      - [{'text': '…, 5, 5', 'bold': True}, {'text': '3.2', 'bold': True, 'color': '$orange'}, {'text': '3'}, {'text': '3'}]
+    style: |-
+      $default
+  - elementId: ex
+    elementType: shape
+    bounds:
+      - 44
+      - 296
+      - 480
+      - 150
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: exb
+    elementType: shape
+    bounds:
+      - 44
+      - 296
+      - 6
+      - 150
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: ext
+    elementType: text
+    bounds:
+      - 66
+      - 306
+      - 436
+      - 130
+    content:
+      text: <p>Changing one observation from 5 → 13 raises the sum by 8. Across 10 students the mean rises by <strong>8 / 10 = 0.8</strong>.</p><p style="margin-top:8px">The median and mode <strong>do not change</strong> in this example.</p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: key
+    elementType: shape
+    bounds:
+      - 556
+      - 116
+      - 360
+      - 150
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: keyb
+    elementType: shape
+    bounds:
+      - 556
+      - 116
+      - 6
+      - 150
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: keyt
+    elementType: text
+    bounds:
+      - 578
+      - 126
+      - 316
+      - 130
+    content:
+      text: <p><strong>Key idea</strong></p><p>The <strong>mean is sensitive</strong> to extreme values; the <strong>median is resistant</strong>.</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: warn
+    elementType: shape
+    bounds:
+      - 556
+      - 296
+      - 360
+      - 150
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: warnb
+    elementType: shape
+    bounds:
+      - 556
+      - 296
+      - 6
+      - 150
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: warnt
+    elementType: text
+    bounds:
+      - 578
+      - 306
+      - 316
+      - 130
+    content:
+      text: <p><strong>Teaching caution</strong></p><p>An unusual value is <strong>not automatically an error</strong>. Check it before excluding it.</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true

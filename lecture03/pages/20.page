@@ -1,0 +1,180 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: There is no universally best measure. Start with the attribute type and the question. For nominal categories the mode is available; for ordered categories a median category; for numerical data, compare mean and median when the distribution is skewed.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · CHOOSING A MEASURE
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Choosing a measure
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 20 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: tbl
+    elementType: table
+    bounds:
+      - 44
+      - 116
+      - 872
+      - 250
+    columnWidths:
+      - 0.42
+      - 0.24
+      - 0.34
+    rowHeights:
+      - 0.16
+      - 0.21
+      - 0.21
+      - 0.21
+      - 0.21
+    rows:
+      - [{'text': 'Data or question', 'bold': True}, {'text': 'Useful measure', 'bold': True}, {'text': 'Reason', 'bold': True}]
+      - [{'text': 'Typical exam score, no strong outliers'}, {'text': 'Mean', 'bold': True, 'color': '$orange'}, {'text': 'Uses all numerical values'}]
+      - [{'text': 'Typical income with a very high outlier'}, {'text': 'Median', 'bold': True, 'color': '$teal'}, {'text': 'Less affected by extremes'}]
+      - [{'text': 'Most popular degree programme'}, {'text': 'Mode', 'bold': True, 'color': '$orange'}, {'text': 'Identifies the most common category'}]
+      - [{'text': 'Middle satisfaction level (ordered scale)'}, {'text': 'Median category', 'bold': True, 'color': '$teal'}, {'text': 'Uses the category order'}]
+    style: |-
+      $default
+  - elementId: note
+    elementType: shape
+    bounds:
+      - 44
+      - 396
+      - 872
+      - 80
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: noteb
+    elementType: shape
+    bounds:
+      - 44
+      - 396
+      - 6
+      - 80
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: notet
+    elementType: text
+    bounds:
+      - 66
+      - 404
+      - 830
+      - 64
+    content:
+      text: <p><strong>There is no universally best measure.</strong> Start with the attribute type and the question. Nominal → mode. Ordered → median category possible. Numerical → compare mean and median, especially when skewed or with unusual values.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.45
+      wrap: true

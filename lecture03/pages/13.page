@@ -1,0 +1,643 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: For five sorted observations, the third is the middle. For four, use the second and third. The result 3.5 need not appear in the data; it is the midpoint between the two central values.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · MEDIAN
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: |-
+        Median: odd and even sample sizes
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 13 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: c0
+    elementType: shape
+    bounds:
+      - 44
+      - 116
+      - 426
+      - 300
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: c0b
+    elementType: shape
+    bounds:
+      - 44
+      - 116
+      - 6
+      - 300
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: c0t
+    elementType: text
+    bounds:
+      - 68
+      - 132
+      - 378
+      - 24
+    content:
+      text: Odd — five values
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+      bold: true
+  - elementId: c0n0
+    elementType: shape
+    bounds:
+      - 68
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 1
+      color: |-
+        $line
+  - elementId: c0nt0
+    elementType: text
+    bounds:
+      - 68
+      - 170
+      - 48
+      - 44
+    content:
+      text: 2
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c0n1
+    elementType: shape
+    bounds:
+      - 130
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 1
+      color: |-
+        $line
+  - elementId: c0nt1
+    elementType: text
+    bounds:
+      - 130
+      - 170
+      - 48
+      - 44
+    content:
+      text: 3
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c0n2
+    elementType: shape
+    bounds:
+      - 192
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $amber
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $orange
+  - elementId: c0nt2
+    elementType: text
+    bounds:
+      - 192
+      - 170
+      - 48
+      - 44
+    content:
+      text: 3
+      fontSize: 16
+      color: |-
+        $orange
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c0n3
+    elementType: shape
+    bounds:
+      - 254
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 1
+      color: |-
+        $line
+  - elementId: c0nt3
+    elementType: text
+    bounds:
+      - 254
+      - 170
+      - 48
+      - 44
+    content:
+      text: 4
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c0n4
+    elementType: shape
+    bounds:
+      - 316
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 1
+      color: |-
+        $line
+  - elementId: c0nt4
+    elementType: text
+    bounds:
+      - 316
+      - 170
+      - 48
+      - 44
+    content:
+      text: 8
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c0r
+    elementType: text
+    bounds:
+      - 68
+      - 238
+      - 378
+      - 30
+    content:
+      text: <span style="font-size:19px; color:$orange"><strong>Median = 3</strong></span>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.3
+      wrap: true
+  - elementId: c0x
+    elementType: text
+    bounds:
+      - 68
+      - 282
+      - 378
+      - 110
+    content:
+      text: <p>The third value is the middle — take it directly.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: c1
+    elementType: shape
+    bounds:
+      - 490
+      - 116
+      - 426
+      - 300
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: c1b
+    elementType: shape
+    bounds:
+      - 490
+      - 116
+      - 6
+      - 300
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: c1t
+    elementType: text
+    bounds:
+      - 514
+      - 132
+      - 378
+      - 24
+    content:
+      text: Even — four values
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+      bold: true
+  - elementId: c1n0
+    elementType: shape
+    bounds:
+      - 514
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 1
+      color: |-
+        $line
+  - elementId: c1nt0
+    elementType: text
+    bounds:
+      - 514
+      - 170
+      - 48
+      - 44
+    content:
+      text: 2
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c1n1
+    elementType: shape
+    bounds:
+      - 576
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $amber
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $orange
+  - elementId: c1nt1
+    elementType: text
+    bounds:
+      - 576
+      - 170
+      - 48
+      - 44
+    content:
+      text: 3
+      fontSize: 16
+      color: |-
+        $orange
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c1n2
+    elementType: shape
+    bounds:
+      - 638
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $amber
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $orange
+  - elementId: c1nt2
+    elementType: text
+    bounds:
+      - 638
+      - 170
+      - 48
+      - 44
+    content:
+      text: 4
+      fontSize: 16
+      color: |-
+        $orange
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c1n3
+    elementType: shape
+    bounds:
+      - 700
+      - 170
+      - 48
+      - 44
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 1
+      color: |-
+        $line
+  - elementId: c1nt3
+    elementType: text
+    bounds:
+      - 700
+      - 170
+      - 48
+      - 44
+    content:
+      text: 8
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: c1r
+    elementType: text
+    bounds:
+      - 514
+      - 238
+      - 378
+      - 30
+    content:
+      text: <span style="font-size:19px; color:$orange"><strong>Median = (3 + 4) / 2 = 3.5</strong></span>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.3
+      wrap: true
+  - elementId: c1x
+    elementType: text
+    bounds:
+      - 514
+      - 282
+      - 378
+      - 110
+    content:
+      text: <p>Average the two middle values (2nd and 3rd).</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: foot
+    elementType: shape
+    bounds:
+      - 44
+      - 440
+      - 872
+      - 50
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: footb
+    elementType: shape
+    bounds:
+      - 44
+      - 440
+      - 6
+      - 50
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: foott
+    elementType: text
+    bounds:
+      - 66
+      - 446
+      - 830
+      - 38
+    content:
+      text: <p>A median like <strong>3.5</strong> does not need to appear among the original observations — it marks the midpoint between the two central values.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true

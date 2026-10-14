@@ -1,0 +1,473 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: There are six distinct course counts but ten students — the denominator of the mean is ten, not six. An ID stored as an integer is still an identifier. Correct calculations cannot rescue a measure with no meaningful interpretation.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · CENTRAL TENDENCY
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Common mistakes
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 21 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: m0
+    elementType: shape
+    bounds:
+      - 44
+      - 110
+      - 872
+      - 68
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: m0b
+    elementType: shape
+    bounds:
+      - 44
+      - 110
+      - 6
+      - 68
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m0n
+    elementType: shape
+    bounds:
+      - 62
+      - 129
+      - 30
+      - 30
+    shapeName: ellipse
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m0nn
+    elementType: text
+    bounds:
+      - 62
+      - 129
+      - 30
+      - 30
+    content:
+      text: 1
+      fontSize: 14
+      color: #FFFFFF
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: m0t
+    elementType: text
+    bounds:
+      - 106
+      - 118
+      - 792
+      - 52
+    content:
+      text: Calculating a <strong>mean for category codes or student IDs</strong>.
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.35
+      wrap: true
+  - elementId: m1
+    elementType: shape
+    bounds:
+      - 44
+      - 192
+      - 872
+      - 68
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: m1b
+    elementType: shape
+    bounds:
+      - 44
+      - 192
+      - 6
+      - 68
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m1n
+    elementType: shape
+    bounds:
+      - 62
+      - 211
+      - 30
+      - 30
+    shapeName: ellipse
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m1nn
+    elementType: text
+    bounds:
+      - 62
+      - 211
+      - 30
+      - 30
+    content:
+      text: 2
+      fontSize: 14
+      color: #FFFFFF
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: m1t
+    elementType: text
+    bounds:
+      - 106
+      - 200
+      - 792
+      - 52
+    content:
+      text: Finding the <strong>median before sorting</strong> the values.
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.35
+      wrap: true
+  - elementId: m2
+    elementType: shape
+    bounds:
+      - 44
+      - 274
+      - 872
+      - 68
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: m2b
+    elementType: shape
+    bounds:
+      - 44
+      - 274
+      - 6
+      - 68
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m2n
+    elementType: shape
+    bounds:
+      - 62
+      - 293
+      - 30
+      - 30
+    shapeName: ellipse
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m2nn
+    elementType: text
+    bounds:
+      - 62
+      - 293
+      - 30
+      - 30
+    content:
+      text: 3
+      fontSize: 14
+      color: #FFFFFF
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: m2t
+    elementType: text
+    bounds:
+      - 106
+      - 282
+      - 792
+      - 52
+    content:
+      text: |-
+        Dividing Σfx by the number of <strong>distinct values</strong> instead of Σf (here: 10 students, not 6 course counts).
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.35
+      wrap: true
+  - elementId: m3
+    elementType: shape
+    bounds:
+      - 44
+      - 356
+      - 872
+      - 68
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: m3b
+    elementType: shape
+    bounds:
+      - 44
+      - 356
+      - 6
+      - 68
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m3n
+    elementType: shape
+    bounds:
+      - 62
+      - 375
+      - 30
+      - 30
+    shapeName: ellipse
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m3nn
+    elementType: text
+    bounds:
+      - 62
+      - 375
+      - 30
+      - 30
+    content:
+      text: 4
+      fontSize: 14
+      color: #FFFFFF
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: m3t
+    elementType: text
+    bounds:
+      - 106
+      - 364
+      - 792
+      - 52
+    content:
+      text: Calling an unusual observation an <strong>error without checking</strong> it.
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.35
+      wrap: true
+  - elementId: m4
+    elementType: shape
+    bounds:
+      - 44
+      - 438
+      - 872
+      - 68
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: m4b
+    elementType: shape
+    bounds:
+      - 44
+      - 438
+      - 6
+      - 68
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m4n
+    elementType: shape
+    bounds:
+      - 62
+      - 457
+      - 30
+      - 30
+    shapeName: ellipse
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: m4nn
+    elementType: text
+    bounds:
+      - 62
+      - 457
+      - 30
+      - 30
+    content:
+      text: 5
+      fontSize: 14
+      color: #FFFFFF
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: m4t
+    elementType: text
+    bounds:
+      - 106
+      - 446
+      - 792
+      - 52
+    content:
+      text: Reporting a “typical” value <strong>without examining the distribution</strong>.
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.35
+      wrap: true

@@ -1,0 +1,240 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: Give students a few minutes to work individually, then compare in pairs. Ask them to show the sum used for the mean, not just the final answer.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · PRACTICE
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Class activity
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 22 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: data
+    elementType: shape
+    bounds:
+      - 44
+      - 108
+      - 872
+      - 84
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: datab
+    elementType: shape
+    bounds:
+      - 44
+      - 108
+      - 6
+      - 84
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: datat
+    elementType: text
+    bounds:
+      - 66
+      - 118
+      - 830
+      - 64
+    content:
+      text: <p><strong>Library visits by 7 students:</strong></p><p><span style="font-size:21px; color:$navy"><strong>0,  1,  1,  2,  2,  2,  13</strong></span></p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: tasks
+    elementType: shape
+    bounds:
+      - 44
+      - 216
+      - 560
+      - 260
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: tasksb
+    elementType: shape
+    bounds:
+      - 44
+      - 216
+      - 6
+      - 260
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: taskst
+    elementType: text
+    bounds:
+      - 66
+      - 230
+      - 516
+      - 232
+    content:
+      text: <p><strong>Tasks</strong></p><ol style="margin-top:6px"><li>Create a <strong>frequency table</strong>.</li><li>Calculate the <strong>mean, median and mode</strong>.</li><li>Which value would you report as <strong>“typical”</strong>? Explain.</li><li>What would you <strong>investigate</strong> about the value 13?</li></ol>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.6
+      wrap: true
+  - elementId: hint
+    elementType: shape
+    bounds:
+      - 630
+      - 216
+      - 286
+      - 260
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: hintb
+    elementType: shape
+    bounds:
+      - 630
+      - 216
+      - 6
+      - 260
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: hintt
+    elementType: text
+    bounds:
+      - 652
+      - 230
+      - 242
+      - 232
+    content:
+      text: <p><strong>How to work</strong></p><ul><li>A few minutes <strong>individually</strong></li><li>Compare in <strong>pairs</strong></li><li>Show the <strong>sum</strong> used for the mean, not just the answer</li></ul>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.55
+      wrap: true

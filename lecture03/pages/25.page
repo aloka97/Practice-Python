@@ -1,0 +1,393 @@
+pageType: final
+background:
+  type: solid
+  color: #FFFFFF
+notes: Use these readings to connect numerical summaries with their visual displays. As you read a statistical description, ask what the summary reveals and what variation it leaves unseen.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · FURTHER READING
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Reading materials
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 25 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: r0
+    elementType: shape
+    bounds:
+      - 44
+      - 112
+      - 872
+      - 64
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: r0b
+    elementType: shape
+    bounds:
+      - 44
+      - 112
+      - 6
+      - 64
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: r0a
+    elementType: text
+    bounds:
+      - 66
+      - 121
+      - 830
+      - 22
+    content:
+      text: |-
+        <strong>Han, J., Kamber, M. & Pei, J. (2011)</strong>  ·  <em>Data Mining: Concepts and Techniques, 3rd ed., Morgan Kaufmann.</em>
+      fontSize: 14
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r0b
+    elementType: text
+    bounds:
+      - 66
+      - 145
+      - 830
+      - 22
+    content:
+      text: Foundation for data summarisation in mining contexts.
+      fontSize: 12.5
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r1
+    elementType: shape
+    bounds:
+      - 44
+      - 188
+      - 872
+      - 64
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: r1b
+    elementType: shape
+    bounds:
+      - 44
+      - 188
+      - 6
+      - 64
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: r1a
+    elementType: text
+    bounds:
+      - 66
+      - 197
+      - 830
+      - 22
+    content:
+      text: |-
+        <strong>Telea, A. C. (2014)</strong>  ·  <em>Data Visualization: Principles and Practice, 2nd ed., CRC Press.</em>
+      fontSize: 14
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r1b
+    elementType: text
+    bounds:
+      - 66
+      - 221
+      - 830
+      - 22
+    content:
+      text: Connects numerical summaries with their visual displays.
+      fontSize: 12.5
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r2
+    elementType: shape
+    bounds:
+      - 44
+      - 264
+      - 872
+      - 64
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: r2b
+    elementType: shape
+    bounds:
+      - 44
+      - 264
+      - 6
+      - 64
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: r2a
+    elementType: text
+    bounds:
+      - 66
+      - 273
+      - 830
+      - 22
+    content:
+      text: <strong>Myatt, G. J. & Johnson, W. P. (2009)</strong>  ·  <em>Making Sense of Data II, John Wiley & Sons.</em>
+      fontSize: 14
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r2b
+    elementType: text
+    bounds:
+      - 66
+      - 297
+      - 830
+      - 22
+    content:
+      text: A practical guide to exploring data before modelling.
+      fontSize: 12.5
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r3
+    elementType: shape
+    bounds:
+      - 44
+      - 340
+      - 872
+      - 64
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: r3b
+    elementType: shape
+    bounds:
+      - 44
+      - 340
+      - 6
+      - 64
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: r3a
+    elementType: text
+    bounds:
+      - 66
+      - 349
+      - 830
+      - 22
+    content:
+      text: <strong>Evergreen, S. D. H. (2017)</strong>  ·  <em>Effective Data Visualization, SAGE Publications.</em>
+      fontSize: 14
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: r3b
+    elementType: text
+    bounds:
+      - 66
+      - 373
+      - 830
+      - 22
+    content:
+      text: Principles for presenting statistical results clearly.
+      fontSize: 12.5
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: next
+    elementType: shape
+    bounds:
+      - 44
+      - 424
+      - 872
+      - 56
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: nextb
+    elementType: shape
+    bounds:
+      - 44
+      - 424
+      - 6
+      - 56
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: nextt
+    elementType: text
+    bounds:
+      - 66
+      - 430
+      - 830
+      - 44
+    content:
+      text: <p><strong>Next lecture:</strong> measures of spread — how far observations vary around the centre. As you read, ask what each summary reveals and what variation it leaves unseen.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true

@@ -1,0 +1,777 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: Always sort first. With ten observations there is no single middle position. The fifth and sixth values are both three, so the median is (3+3)/2 = 3.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · MEDIAN
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: What is the median?
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 12 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: def
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 872
+      - 56
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: defb
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 6
+      - 56
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: deft
+    elementType: text
+    bounds:
+      - 66
+      - 110
+      - 830
+      - 44
+    content:
+      text: <p>The <strong>median</strong> is the middle value <strong>after sorting</strong> the observations. Always sort first.</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true
+  - elementId: v0
+    elementType: shape
+    bounds:
+      - 70
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt0
+    elementType: text
+    bounds:
+      - 70
+      - 196
+      - 56
+      - 52
+    content:
+      text: 1
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp0
+    elementType: text
+    bounds:
+      - 70
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v1
+    elementType: shape
+    bounds:
+      - 152
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt1
+    elementType: text
+    bounds:
+      - 152
+      - 196
+      - 56
+      - 52
+    content:
+      text: 2
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp1
+    elementType: text
+    bounds:
+      - 152
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v2
+    elementType: shape
+    bounds:
+      - 234
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt2
+    elementType: text
+    bounds:
+      - 234
+      - 196
+      - 56
+      - 52
+    content:
+      text: 2
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp2
+    elementType: text
+    bounds:
+      - 234
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v3
+    elementType: shape
+    bounds:
+      - 316
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt3
+    elementType: text
+    bounds:
+      - 316
+      - 196
+      - 56
+      - 52
+    content:
+      text: 3
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp3
+    elementType: text
+    bounds:
+      - 316
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v4
+    elementType: shape
+    bounds:
+      - 398
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $amber
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $orange
+  - elementId: vt4
+    elementType: text
+    bounds:
+      - 398
+      - 196
+      - 56
+      - 52
+    content:
+      text: 3
+      fontSize: 18
+      color: |-
+        $orange
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp4
+    elementType: text
+    bounds:
+      - 398
+      - 252
+      - 56
+      - 14
+    content:
+      text: 5th
+      fontSize: 9
+      color: |-
+        $orange
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v5
+    elementType: shape
+    bounds:
+      - 480
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $amber
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $orange
+  - elementId: vt5
+    elementType: text
+    bounds:
+      - 480
+      - 196
+      - 56
+      - 52
+    content:
+      text: 3
+      fontSize: 18
+      color: |-
+        $orange
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp5
+    elementType: text
+    bounds:
+      - 480
+      - 252
+      - 56
+      - 14
+    content:
+      text: 6th
+      fontSize: 9
+      color: |-
+        $orange
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v6
+    elementType: shape
+    bounds:
+      - 562
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt6
+    elementType: text
+    bounds:
+      - 562
+      - 196
+      - 56
+      - 52
+    content:
+      text: 4
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp6
+    elementType: text
+    bounds:
+      - 562
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v7
+    elementType: shape
+    bounds:
+      - 644
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt7
+    elementType: text
+    bounds:
+      - 644
+      - 196
+      - 56
+      - 52
+    content:
+      text: 4
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp7
+    elementType: text
+    bounds:
+      - 644
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v8
+    elementType: shape
+    bounds:
+      - 726
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt8
+    elementType: text
+    bounds:
+      - 726
+      - 196
+      - 56
+      - 52
+    content:
+      text: 5
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp8
+    elementType: text
+    bounds:
+      - 726
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: v9
+    elementType: shape
+    bounds:
+      - 808
+      - 196
+      - 56
+      - 52
+    shapeName: roundRect
+    adjustments:
+      - 16000
+    fill:
+      type: solid
+      color: |-
+        $pale
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $line
+  - elementId: vt9
+    elementType: text
+    bounds:
+      - 808
+      - 196
+      - 56
+      - 52
+    content:
+      text: 13
+      fontSize: 18
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: false
+      bold: true
+  - elementId: vp9
+    elementType: text
+    bounds:
+      - 808
+      - 252
+      - 56
+      - 14
+    content:
+      text: |-
+        
+      fontSize: 9
+      color: |-
+        $grey
+      align:
+        - center
+        - top
+      lineHeight: 1.0
+      wrap: false
+  - elementId: calc
+    elementType: shape
+    bounds:
+      - 44
+      - 292
+      - 560
+      - 110
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: calct
+    elementType: text
+    bounds:
+      - 64
+      - 302
+      - 520
+      - 90
+    content:
+      text: <p>10 values → even count → no single middle position. Average the two middle values (5th and 6th):</p><p style="margin-top:6px"><span style="font-size:22px; color:$navy"><strong>Median = (3 + 3) / 2 = <span style="color:$orange">3</span></strong></span></p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: note
+    elementType: shape
+    bounds:
+      - 630
+      - 292
+      - 286
+      - 110
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: noteb
+    elementType: shape
+    bounds:
+      - 630
+      - 292
+      - 6
+      - 110
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: notet
+    elementType: text
+    bounds:
+      - 650
+      - 302
+      - 246
+      - 90
+    content:
+      text: <p>The value <strong>13 sits in the last position</strong> — it does not move the two middle values.</p>
+      fontSize: 13.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true

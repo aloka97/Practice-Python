@@ -1,0 +1,167 @@
+pageType: cover
+background:
+  type: solid
+  color: |-
+    $navy
+notes: |-
+  In the previous lectures we identified data objects and classified their attributes. Today we summarise a set of values: first how often values occur, then what a 'typical' value might be.
+elements:
+  - elementId: deco1
+    elementType: shape
+    bounds:
+      - 700
+      - -120
+      - 420
+      - 420
+    shapeName: ellipse
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $teal
+  - elementId: deco2
+    elementType: shape
+    bounds:
+      - 790
+      - -60
+      - 300
+      - 300
+    shapeName: ellipse
+    border:
+      style: solid
+      width: 2
+      color: |-
+        $orange
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 168
+      - 700
+      - 20
+    content:
+      text: LECTURE 03  ·  DESCRIPTIVE STATISTICS
+      fontSize: 13
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 4
+  - elementId: title
+    elementType: text
+    bounds:
+      - 44
+      - 200
+      - 800
+      - 110
+    content:
+      text: |-
+        Basic Statistical Description
+        and Central Tendency
+      fontSize: 36
+      color: #FFFFFF
+      align:
+        - left
+        - top
+      lineHeight: 1.15
+      wrap: true
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 44
+      - 330
+      - 130
+      - 4
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: sub
+    elementType: text
+    bounds:
+      - 44
+      - 350
+      - 760
+      - 30
+    content:
+      text: Frequency distributions, mean, median and mode
+      fontSize: 17
+      color: #C7D3E8
+      align:
+        - left
+        - middle
+      lineHeight: 1.3
+      wrap: true
+  - elementId: sq1
+    elementType: shape
+    bounds:
+      - 44
+      - 440
+      - 14
+      - 14
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: sq2
+    elementType: shape
+    bounds:
+      - 66
+      - 440
+      - 14
+      - 14
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: sq3
+    elementType: shape
+    bounds:
+      - 88
+      - 440
+      - 14
+      - 14
+    shapeName: rect
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 505
+      - 620
+      - 16
+    content:
+      text: Lecture notes · Slide set 2 · 10-student course-load dataset throughout
+      fontSize: 10
+      color: #8FA3C4
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 505
+      - 80
+      - 16
+    content:
+      text: 01 / 25
+      fontSize: 10
+      color: #8FA3C4
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false

@@ -1,0 +1,221 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: Platform is nominal categorical data. We cannot calculate a meaningful mean or median of platform names, but we can identify the most common platform. The mode works for categorical and numerical data.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · CHOOSING A MEASURE
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: When is the mode useful?
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 19 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: when
+    elementType: shape
+    bounds:
+      - 44
+      - 112
+      - 420
+      - 344
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: whenb
+    elementType: shape
+    bounds:
+      - 44
+      - 112
+      - 6
+      - 344
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: whent
+    elementType: text
+    bounds:
+      - 66
+      - 126
+      - 376
+      - 316
+    content:
+      text: <p><strong>Use the mode when:</strong></p><ul style="margin-top:6px"><li>You need the <strong>most common value or category</strong>.</li><li>Data is <strong>categorical</strong> — nominal or ordinal.</li></ul><p style="margin-top:10px">Platform names have no meaningful mean or median — but a most-common platform exists.</p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.55
+      wrap: true
+  - elementId: ptbl
+    elementType: table
+    bounds:
+      - 494
+      - 140
+      - 422
+      - 170
+    columnWidths:
+      - 0.6
+      - 0.4
+    rowHeights:
+      - 0.25
+      - 0.25
+      - 0.25
+      - 0.25
+    rows:
+      - [{'text': 'Platform', 'bold': True}, {'text': 'Students', 'bold': True}]
+      - [{'text': 'Moodle', 'bold': True, 'color': '$orange'}, {'text': '18', 'bold': True}]
+      - [{'text': 'Teams'}, {'text': '12'}]
+      - [{'text': 'Google Classroom'}, {'text': '5'}]
+    style: |-
+      $default
+  - elementId: res
+    elementType: shape
+    bounds:
+      - 494
+      - 336
+      - 422
+      - 90
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: resb
+    elementType: shape
+    bounds:
+      - 494
+      - 336
+      - 6
+      - 90
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: rest
+    elementType: text
+    bounds:
+      - 516
+      - 350
+      - 378
+      - 62
+    content:
+      text: |-
+        <p><span style="font-size:19px"><strong>Mode: <span style="color:$orange">Moodle</span></strong></span> — the most common category (nominal data).</p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.45
+      wrap: true

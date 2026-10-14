@@ -1,0 +1,77 @@
+version: v2
+title: Lecture 03 — Basic Statistical Description and Central Tendency
+size:
+  - 960
+  - 540
+theme:
+  colors:
+    navy: #16233F
+    navyLight: #22345C
+    orange: #E8871E
+    orangeLight: #F5A94B
+    amber: #FDEBD3
+    teal: #2A9D8F
+    tealDark: #1F7A70
+    pale: #EDF2F8
+    pale2: #E2EAF4
+    ink: #26324B
+    grey: #5A6B85
+    line: #D5DEE9
+  tableStyles:
+    default:
+      cellStyle:
+        fontSize: 14
+        color: |-
+          $ink
+        align:
+          - center
+          - middle
+        border:
+          style: solid
+          width: 1
+          color: |-
+            $line
+        fill:
+          type: solid
+          color: #FFFFFF
+      firstRowStyle:
+        fill:
+          type: solid
+          color: |-
+            $navy
+        color: #FFFFFF
+        bold: true
+      bodyStyles:
+        - fill:
+            type: solid
+            color: #FFFFFF
+        - fill:
+            type: solid
+            color: |-
+              $pale
+pages:
+  - pages/01.page
+  - pages/02.page
+  - pages/03.page
+  - pages/04.page
+  - pages/05.page
+  - pages/06.page
+  - pages/07.page
+  - pages/08.page
+  - pages/09.page
+  - pages/10.page
+  - pages/11.page
+  - pages/12.page
+  - pages/13.page
+  - pages/14.page
+  - pages/15.page
+  - pages/16.page
+  - pages/17.page
+  - pages/18.page
+  - pages/19.page
+  - pages/20.page
+  - pages/21.page
+  - pages/22.page
+  - pages/23.page
+  - pages/24.page
+  - pages/25.page

@@ -1,0 +1,267 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: The middle, fourth value is two, and two is the most frequent value. The mean is three because 13 raises it. For a typical student, two visits is more representative. Check whether 13 is valid before deciding to remove it.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · PRACTICE
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Activity answers
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 23 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: tbl
+    elementType: table
+    bounds:
+      - 44
+      - 116
+      - 360
+      - 230
+    columnWidths:
+      - 0.5
+      - 0.5
+    rowHeights:
+      - 0.2
+      - 0.2
+      - 0.2
+      - 0.2
+      - 0.2
+    rows:
+      - [{'text': 'Visits', 'bold': True}, {'text': 'Frequency', 'bold': True}]
+      - [{'text': '0'}, {'text': '1'}]
+      - [{'text': '1'}, {'text': '2'}]
+      - [{'text': '2'}, {'text': '3'}]
+      - [{'text': '13'}, {'text': '1'}]
+      - [{'text': 'Total', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}, {'text': '7', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}]
+    style: |-
+      $default
+  - elementId: mean
+    elementType: shape
+    bounds:
+      - 440
+      - 116
+      - 476
+      - 96
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: meanb
+    elementType: shape
+    bounds:
+      - 440
+      - 116
+      - 6
+      - 96
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: meant
+    elementType: text
+    bounds:
+      - 462
+      - 124
+      - 432
+      - 80
+    content:
+      text: <p><strong>Mean</strong> = (0+1+1+2+2+2+13) / 7 = 21 / 7 = <span style="color:$orange"><strong>3</strong></span></p><p style="margin-top:4px">The value 13 raises the mean.</p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true
+  - elementId: mm
+    elementType: shape
+    bounds:
+      - 440
+      - 232
+      - 476
+      - 114
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: mmb
+    elementType: shape
+    bounds:
+      - 440
+      - 232
+      - 6
+      - 114
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: mmt
+    elementType: text
+    bounds:
+      - 462
+      - 244
+      - 432
+      - 90
+    content:
+      text: <p><span style="font-size:18px"><strong>Median = <span style="color:$teal">2</span></strong></span> (middle, 4th value)　<span style="font-size:18px"><strong>Mode = <span style="color:$teal">2</span></strong></span> (most frequent)</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.5
+      wrap: true
+  - elementId: concl
+    elementType: shape
+    bounds:
+      - 44
+      - 376
+      - 872
+      - 96
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: conclb
+    elementType: shape
+    bounds:
+      - 44
+      - 376
+      - 6
+      - 96
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: conclt
+    elementType: text
+    bounds:
+      - 66
+      - 384
+      - 830
+      - 80
+    content:
+      text: |-
+        <p><strong>Typical student here: 2 visits</strong> — median and mode agree; the mean (3) is pulled up by 13. <strong>Before removing 13,</strong> check whether it is valid — e.g. a frequent library user — not automatically an error.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.45
+      wrap: true

@@ -1,0 +1,232 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: |-
+  The same mean, calculated more efficiently: two students took two courses, contributing 2×2=4 to the sum. The denominator is the total frequency, ten students.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · MEAN
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Mean using a frequency table
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 11 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: tbl
+    elementType: table
+    bounds:
+      - 44
+      - 112
+      - 420
+      - 330
+    columnWidths:
+      - 0.34
+      - 0.33
+      - 0.33
+    rowHeights:
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+      - 0.1
+    rows:
+      - [{'text': 'Courses x', 'bold': True}, {'text': 'Frequency f', 'bold': True}, {'text': 'fx', 'bold': True}]
+      - [{'text': '1'}, {'text': '1'}, {'text': '1'}]
+      - [{'text': '2'}, {'text': '2'}, {'text': '4'}]
+      - [{'text': '3'}, {'text': '3'}, {'text': '9'}]
+      - [{'text': '4'}, {'text': '2'}, {'text': '8'}]
+      - [{'text': '5'}, {'text': '1'}, {'text': '5'}]
+      - [{'text': '13'}, {'text': '1'}, {'text': '13'}]
+      - [{'text': 'Total', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}, {'text': '10', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}, {'text': '40', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}]
+    style: |-
+      $default
+  - elementId: f
+    elementType: shape
+    bounds:
+      - 500
+      - 120
+      - 416
+      - 100
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: fb
+    elementType: shape
+    bounds:
+      - 500
+      - 120
+      - 6
+      - 100
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: ft
+    elementType: text
+    bounds:
+      - 524
+      - 130
+      - 370
+      - 80
+    content:
+      text: <p>When values repeat, multiply each value by its frequency:</p><p style="margin-top:4px"><span style="font-size:20px; color:$navy"><strong>x̄ = Σfx ÷ Σf</strong></span></p>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true
+  - elementId: ex
+    elementType: shape
+    bounds:
+      - 500
+      - 244
+      - 416
+      - 150
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: exb
+    elementType: shape
+    bounds:
+      - 500
+      - 244
+      - 6
+      - 150
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: ext
+    elementType: text
+    bounds:
+      - 524
+      - 256
+      - 370
+      - 126
+    content:
+      text: <p>Two students took 2 courses → contributes <strong>2 × 2 = 4</strong> to the sum.</p><p style="margin-top:8px">Denominator = total frequency = <strong>10 students</strong> (not the 6 distinct values!).</p><p style="margin-top:8px"><span style="font-size:18px; color:$orange"><strong>x̄ = 40 / 10 = 4</strong></span> — same mean, calculated efficiently.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true

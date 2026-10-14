@@ -1,0 +1,367 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: To find the frequency of a value, count how many observations have that value. Frequency answers ‘how many?’ It does not yet tell us the proportion of the class.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · COUNTING VALUES
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Frequency
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 05 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: def
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 872
+      - 64
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: defb
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 6
+      - 64
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: deft
+    elementType: text
+    bounds:
+      - 66
+      - 112
+      - 830
+      - 48
+    content:
+      text: <p><strong>Frequency</strong> is the number of times a value occurs. Count how many observations have that value — it answers <em>“how many?”</em>, not yet what proportion of the class that is.</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true
+  - elementId: c0
+    elementType: shape
+    bounds:
+      - 44
+      - 200
+      - 272
+      - 90
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: c0b
+    elementType: shape
+    bounds:
+      - 44
+      - 200
+      - 6
+      - 90
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: c0a
+    elementType: text
+    bounds:
+      - 68
+      - 214
+      - 224
+      - 26
+    content:
+      text: Value 2
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+      bold: true
+  - elementId: c0b
+    elementType: text
+    bounds:
+      - 68
+      - 242
+      - 224
+      - 26
+    content:
+      text: occurs 2 times
+      fontSize: 14
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: c1
+    elementType: shape
+    bounds:
+      - 344
+      - 200
+      - 272
+      - 90
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: c1b
+    elementType: shape
+    bounds:
+      - 344
+      - 200
+      - 6
+      - 90
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: c1a
+    elementType: text
+    bounds:
+      - 368
+      - 214
+      - 224
+      - 26
+    content:
+      text: Value 3
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+      bold: true
+  - elementId: c1b
+    elementType: text
+    bounds:
+      - 368
+      - 242
+      - 224
+      - 26
+    content:
+      text: occurs 3 times
+      fontSize: 14
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: c2
+    elementType: shape
+    bounds:
+      - 644
+      - 200
+      - 272
+      - 90
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: c2b
+    elementType: shape
+    bounds:
+      - 644
+      - 200
+      - 6
+      - 90
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: c2a
+    elementType: text
+    bounds:
+      - 668
+      - 214
+      - 224
+      - 26
+    content:
+      text: Value 13
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+      bold: true
+  - elementId: c2b
+    elementType: text
+    bounds:
+      - 668
+      - 242
+      - 224
+      - 26
+    content:
+      text: occurs 1 time
+      fontSize: 14
+      color: |-
+        $grey
+      align:
+        - left
+        - top
+      lineHeight: 1.4
+      wrap: true
+  - elementId: hint
+    elementType: shape
+    bounds:
+      - 44
+      - 320
+      - 872
+      - 70
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: hintt
+    elementType: text
+    bounds:
+      - 66
+      - 330
+      - 830
+      - 50
+    content:
+      text: |-
+        <p>Frequency table next: list every distinct value with its count — the most common value becomes much easier to spot than in the raw list.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true

@@ -1,0 +1,197 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: One income is much higher than the others. The median says the middle person earns LKR 60,000; the mean would be LKR 146,000. This is why median income is useful when incomes are skewed.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · CHOOSING A MEASURE
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: When is the median useful?
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 18 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: when
+    elementType: shape
+    bounds:
+      - 44
+      - 112
+      - 420
+      - 344
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: whenb
+    elementType: shape
+    bounds:
+      - 44
+      - 112
+      - 6
+      - 344
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: whent
+    elementType: text
+    bounds:
+      - 66
+      - 126
+      - 376
+      - 316
+    content:
+      text: <p><strong>Use the when when:</strong></p><ul style="margin-top:6px"><li>A numerical distribution contains <strong>unusually large or small values</strong>.</li><li>You want the <strong>middle observation</strong>.</li><li>You are summarising <strong>ordered categories</strong>, where appropriate.</li></ul>
+      fontSize: 14.5
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.55
+      wrap: true
+  - elementId: ex
+    elementType: shape
+    bounds:
+      - 494
+      - 112
+      - 422
+      - 344
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: #FFFFFF
+  - elementId: exb
+    elementType: shape
+    bounds:
+      - 494
+      - 112
+      - 6
+      - 344
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: ext
+    elementType: text
+    bounds:
+      - 516
+      - 126
+      - 378
+      - 316
+    content:
+      text: <p><strong>Example — monthly incomes (LKR)</strong></p><p style="margin-top:8px">50,000 · 55,000 · <span style="color:$orange"><strong>60,000</strong></span> · 65,000 · 500,000<br/><br/><span style="font-size:19px; color:$orange"><strong>Median = LKR 60,000</strong></span><br/><br/>One income is far higher than the rest. The mean would be LKR 146,000 — describing no one near the middle. Hence median income is preferred for skewed data.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.55
+      wrap: true

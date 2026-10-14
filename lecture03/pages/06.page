@@ -1,0 +1,229 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: |-
+  A frequency distribution lists each distinct value and its count. Check that the frequencies add to the number of observations: 1+2+3+2+1+1 = 10. The table makes the most common value easy to spot.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · COUNTING VALUES
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: Frequency distribution
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 06 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: tbl
+    elementType: table
+    bounds:
+      - 44
+      - 116
+      - 420
+      - 300
+    columnWidths:
+      - 0.55
+      - 0.45
+    rowHeights:
+      - 0.125
+      - 0.125
+      - 0.125
+      - 0.125
+      - 0.125
+      - 0.125
+      - 0.125
+      - 0.125
+    rows:
+      - [{'text': 'Number of courses x', 'bold': True}, {'text': 'Frequency f', 'bold': True}]
+      - [{'text': '1'}, {'text': '1'}]
+      - [{'text': '2'}, {'text': '2'}]
+      - [{'text': '3'}, {'text': '3'}]
+      - [{'text': '4'}, {'text': '2'}]
+      - [{'text': '5'}, {'text': '1'}]
+      - [{'text': '13'}, {'text': '1'}]
+      - [{'text': 'Total', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}, {'text': '10', 'bold': True, 'fill': {'type': 'solid', 'color': '$pale2'}}]
+    style: |-
+      $default
+  - elementId: chk
+    elementType: shape
+    bounds:
+      - 500
+      - 130
+      - 416
+      - 120
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: chkb
+    elementType: shape
+    bounds:
+      - 500
+      - 130
+      - 6
+      - 120
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: chkt
+    elementType: text
+    bounds:
+      - 524
+      - 142
+      - 370
+      - 96
+    content:
+      text: <p><strong>Check:</strong> the frequencies add to the number of observations.</p><p style="margin-top:6px"><span style="color:$teal"><strong>1 + 2 + 3 + 2 + 1 + 1 = 10</strong></span></p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.5
+      wrap: true
+  - elementId: why
+    elementType: shape
+    bounds:
+      - 500
+      - 280
+      - 416
+      - 120
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: whyb
+    elementType: shape
+    bounds:
+      - 500
+      - 280
+      - 6
+      - 120
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: whyt
+    elementType: text
+    bounds:
+      - 524
+      - 292
+      - 370
+      - 96
+    content:
+      text: <p>A frequency distribution lists each <strong>distinct value</strong> and its count — the most common value (3, with three students) is now far easier to see than in the raw list.</p>
+      fontSize: 14
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true

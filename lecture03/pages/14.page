@@ -1,0 +1,486 @@
+pageType: content
+background:
+  type: solid
+  color: #FFFFFF
+notes: The mode is three — the highest frequency. Identify it from the frequency table or the tallest bar. Ties give multiple modes; equal frequencies give no unique mode.
+elements:
+  - elementId: hdr
+    elementType: shape
+    bounds:
+      - 0
+      - 0
+      - 960
+      - 76
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $navy
+  - elementId: kick
+    elementType: text
+    bounds:
+      - 44
+      - 10
+      - 700
+      - 16
+    content:
+      text: LECTURE 03 · MODE
+      fontSize: 11
+      color: |-
+        $orangeLight
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+      letterSpacing: 3
+  - elementId: h1
+    elementType: text
+    bounds:
+      - 44
+      - 28
+      - 872
+      - 38
+    content:
+      text: What is the mode?
+      fontSize: 23
+      color: #FFFFFF
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+      bold: true
+  - elementId: div
+    elementType: shape
+    bounds:
+      - 0
+      - 76
+      - 960
+      - 3
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: fline
+    elementType: shape
+    bounds:
+      - 44
+      - 507
+      - 872
+      - 1
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $line
+  - elementId: foot
+    elementType: text
+    bounds:
+      - 44
+      - 513
+      - 620
+      - 15
+    content:
+      text: Lecture 03 — Basic Statistical Description and Central Tendency
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - left
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: pnum
+    elementType: text
+    bounds:
+      - 836
+      - 513
+      - 80
+      - 15
+    content:
+      text: 14 / 25
+      fontSize: 9.5
+      color: |-
+        $grey
+      align:
+        - right
+        - middle
+      lineHeight: 1.2
+      wrap: false
+  - elementId: def
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 872
+      - 56
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: defb
+    elementType: shape
+    bounds:
+      - 44
+      - 104
+      - 6
+      - 56
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: deft
+    elementType: text
+    bounds:
+      - 66
+      - 110
+      - 830
+      - 44
+    content:
+      text: <p>The <strong>mode</strong> is the most frequently occurring value — read it straight off the frequency table or the tallest bar.</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.4
+      wrap: true
+  - elementId: o0
+    elementType: shape
+    bounds:
+      - 44
+      - 190
+      - 160
+      - 100
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: o0v
+    elementType: text
+    bounds:
+      - 60
+      - 202
+      - 128
+      - 34
+    content:
+      text: <span style="font-size:22px"><strong>1</strong></span>
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: true
+      bold: true
+  - elementId: o0c
+    elementType: text
+    bounds:
+      - 60
+      - 238
+      - 128
+      - 26
+    content:
+      text: occurs once
+      fontSize: 12.5
+      color: |-
+        $ink
+      align:
+        - center
+        - middle
+      lineHeight: 1.2
+      wrap: true
+  - elementId: o1
+    elementType: shape
+    bounds:
+      - 222
+      - 190
+      - 160
+      - 100
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: o1v
+    elementType: text
+    bounds:
+      - 238
+      - 202
+      - 128
+      - 34
+    content:
+      text: <span style="font-size:22px"><strong>2</strong></span>
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: true
+      bold: true
+  - elementId: o1c
+    elementType: text
+    bounds:
+      - 238
+      - 238
+      - 128
+      - 26
+    content:
+      text: occurs twice
+      fontSize: 12.5
+      color: |-
+        $ink
+      align:
+        - center
+        - middle
+      lineHeight: 1.2
+      wrap: true
+  - elementId: o2
+    elementType: shape
+    bounds:
+      - 400
+      - 190
+      - 160
+      - 100
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $amber
+  - elementId: o2b
+    elementType: shape
+    bounds:
+      - 400
+      - 190
+      - 6
+      - 100
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $orange
+  - elementId: o2v
+    elementType: text
+    bounds:
+      - 416
+      - 202
+      - 128
+      - 34
+    content:
+      text: <span style="font-size:22px"><strong>3</strong></span>
+      fontSize: 16
+      color: |-
+        $orange
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: true
+      bold: true
+  - elementId: o2c
+    elementType: text
+    bounds:
+      - 416
+      - 238
+      - 128
+      - 26
+    content:
+      text: occurs 3 times
+      fontSize: 12.5
+      color: |-
+        $ink
+      align:
+        - center
+        - middle
+      lineHeight: 1.2
+      wrap: true
+  - elementId: o3
+    elementType: shape
+    bounds:
+      - 578
+      - 190
+      - 160
+      - 100
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: o3v
+    elementType: text
+    bounds:
+      - 594
+      - 202
+      - 128
+      - 34
+    content:
+      text: <span style="font-size:22px"><strong>4</strong></span>
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: true
+      bold: true
+  - elementId: o3c
+    elementType: text
+    bounds:
+      - 594
+      - 238
+      - 128
+      - 26
+    content:
+      text: occurs twice
+      fontSize: 12.5
+      color: |-
+        $ink
+      align:
+        - center
+        - middle
+      lineHeight: 1.2
+      wrap: true
+  - elementId: o4
+    elementType: shape
+    bounds:
+      - 756
+      - 190
+      - 160
+      - 100
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: o4v
+    elementType: text
+    bounds:
+      - 772
+      - 202
+      - 128
+      - 34
+    content:
+      text: <span style="font-size:22px"><strong>13</strong></span>
+      fontSize: 16
+      color: |-
+        $navy
+      align:
+        - center
+        - middle
+      lineHeight: 1.0
+      wrap: true
+      bold: true
+  - elementId: o4c
+    elementType: text
+    bounds:
+      - 772
+      - 238
+      - 128
+      - 26
+    content:
+      text: occurs once
+      fontSize: 12.5
+      color: |-
+        $ink
+      align:
+        - center
+        - middle
+      lineHeight: 1.2
+      wrap: true
+  - elementId: res
+    elementType: shape
+    bounds:
+      - 44
+      - 320
+      - 540
+      - 90
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: resb
+    elementType: shape
+    bounds:
+      - 44
+      - 320
+      - 6
+      - 90
+    shapeName: rect
+    fill:
+      type: solid
+      color: |-
+        $teal
+  - elementId: rest
+    elementType: text
+    bounds:
+      - 66
+      - 332
+      - 496
+      - 66
+    content:
+      text: <p><span style="font-size:20px"><strong>Mode = <span style="color:$orange">3 courses</span></strong></span> — highest frequency (3 times).</p>
+      fontSize: 15
+      color: |-
+        $ink
+      align:
+        - left
+        - middle
+      lineHeight: 1.45
+      wrap: true
+  - elementId: note
+    elementType: shape
+    bounds:
+      - 610
+      - 320
+      - 306
+      - 90
+    shapeName: roundRect
+    adjustments:
+      - 12000
+    fill:
+      type: solid
+      color: |-
+        $pale
+  - elementId: notet
+    elementType: text
+    bounds:
+      - 630
+      - 328
+      - 266
+      - 74
+    content:
+      text: <p>A dataset can have <strong>more than one mode</strong> (a tie) or <strong>no unique mode</strong> (all values equally often).</p>
+      fontSize: 13
+      color: |-
+        $ink
+      align:
+        - left
+        - top
+      lineHeight: 1.45
+      wrap: true
